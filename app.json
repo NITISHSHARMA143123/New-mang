@@ -1,7 +1,7 @@
 {
-    "name": "Gojo_Satoru",
-    "description": "Gojo is a Telegram Group management bot made using Pyrogram and Python, which makes it modern and faster than most of the Telegram chat managers.",
-    "logo" : "https://te.legra.ph/file/633bd27c1607fe98920b6.jpg",
+    "name": "Lily",
+    "description": "Lily is a Telegram Group management bot made using Pyrogram and Python, which makes it modern and faster than most of the Telegram chat managers.",
+    "logo" : "https://telegra.ph/file/6fe658ea9cc43c64c3c13.jpg",
     "keywords": [
       "telegram bot",
       "group bot",
@@ -10,8 +10,8 @@
       "Gojo",
       "Anime"
     ],
-    "repository": "https://github.com/Gojo-Bots/Gojo_Satoru",
-    "success_url": "https://t.me/GojoSuperbot",
+    "repository": "https://github.com/NITISHSHARMA143123/New-mang",
+    "success_url": "https://t.me/venom_world_chatting_club",
     "env": {
       "BOT_TOKEN": {
         "description": "Your telegram bot token, get from @Botfather in telegram.",
@@ -45,8 +45,8 @@
       },
       "SUPPORT_GROUP": {
         "description": "Your Telegram support group chat username where users can contact in case of a problem..",
-        "required": false,
-        "value": "gojo_bots_network"
+        "required": true,
+        "value": "venom_world_chatting_club"
       },
       "MESSAGE_DUMP": {
         "description": "Event logs channel where bot will send updates.",
@@ -56,7 +56,7 @@
       "PREFIX_HANDLER": {
         "description": "Something like '/' to execute commands...Don't give a comma or anything after 1 handler just give and space then enter second hand;ler",
         "required": false,
-        "value": "/ ! $"
+        "value": "/ . ! $"
       },
       "DEV_USERS": {
         "description": "ID of users who are Devs of your bot. Use space to separate values",
