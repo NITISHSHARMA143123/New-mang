@@ -61,7 +61,7 @@ async def gen_start_kb(q: Message or CallbackQuery):
             [
                 (
                     "🗃️ Source Code",
-                    "https://github.com/Gojo-Bots/Gojo_Satoru",
+                    "https://t.me/venom_world_chatting_club",
                     "url",
                 ),
                 (
@@ -73,7 +73,7 @@ async def gen_start_kb(q: Message or CallbackQuery):
             [
                 (
                     "Essential",
-                    "https://t.me/+PcVYvdzNt4E1YjM1",
+                    "https://t.me/Lily_X_bots",
                     "url",
                 ),
                 (
@@ -272,9 +272,9 @@ async def get_help_msg(m: Message or CallbackQuery, help_option: str):
         else:
             mes = m
         help_msg = f"""
-Hey **[{mes.from_user.first_name}](http://t.me/{mes.from_user.username})**!I am Gojo✨.
+Hey **[{mes.from_user.first_name}](http://t.me/{mes.from_user.username})**!I am Lily✨.
 I'm here to help you manage your groups!
-Commands available:
+commands available:
 × /start: Start the bot
 × /help: Give's you this message."""
         ou = await gen_cmds_kb(m)
