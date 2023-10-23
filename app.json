@@ -66,7 +66,7 @@
       "SUPPORT_CHANNEL": {
         "description": "Channel where bot updates will be posted!",
         "required": false,
-        "value": "gojo_bots_network"
+        "value": "Lily_X_bots"
       },
       "SUDO_USERS": {
         "description": "A space-separated list of user IDs who you want to assign as sudo users.",
