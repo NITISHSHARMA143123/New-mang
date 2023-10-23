@@ -32,7 +32,7 @@ Your donation might also me get me a new feature or two, which I wasn't able to 
 
 All the fund would be put into my services such as database, storage and hosting!
 
-You can donate by contacting my owner: [Captain Ezio](http://t.me/iamgojoof6eyes)
+You can donate by contacting my owner: [ᴠᴇɴᴏᴍ](http://t.me/its_arryan)
      """
 
     LOGGER.info(f"{m.from_user.id} fetched donation text in {m.chat.id}")
@@ -111,7 +111,7 @@ Hey [{m.from_user.first_name}](http://t.me/{m.from_user.username})! I am Gojo �
 I'm here to help you manage your group(s)!
 Hit /help to find out more about how to use me in my full potential!
 
-Join my [News Channel](https://t.me/gojo_bots_network) to get information on all the latest updates."""
+Join my [News Channel](https://t.me/Lily_X_bots) to get information on all the latest updates."""
 
             await m.reply_photo(
                 photo=str(choice(StartPic)),
